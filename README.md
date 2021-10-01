@@ -1,10 +1,15 @@
 # Engineer Layout
 An XMonad layout for fine-grained customisation. It allows you to set pre-defined layouts for when a specific group of windows is present on the workspace. Window categories and how to categorise them is left up to you to define.
 
+Example:
+![example all layouts](examples/all.gif)
+
 ## Instalation
 Download the [EngineerLayout.hs](./EngineerLayout.hs) file in this repo (or clone everything) and place that file inside your xmonad lib directory (`~.xmonad/lib/`)
 
 
+## ⚠ Warning
+While hot reloading a modified config you need to press mod+shift+space to see changes
 ## Example config
 1. Define the datatype for window categories. It needs to derive `Show` `Ord` `Eq` and `Read`
 
@@ -89,5 +94,4 @@ myLayout = Engineer MyWindowFn
 [ (Terminal, RationalRect (3%12) (10%48) (6%12) (24%48))]
 ```
 ![Result layout for Browser](./examples/engineerTerminal.png)
-
-While hot reloading a modified config you need to press mod+shift+space to see changes. This clears the layout state
+	
