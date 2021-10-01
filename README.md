@@ -59,7 +59,8 @@ myLayout = Engineer MyWindowFn
 ```
 ![My layout for Browser](./examples/engineerBrowser.png)
 #### Discord
-```[ (Discord, RationalRect (2%12) (1%12) (8%12) (10%12))]
+```
+[ (Discord, RationalRect (2%12) (1%12) (8%12) (10%12))]
 ```
 ![Result layout for Discord](./examples/engineerBrowser.png)
 #### Browser and Discord
